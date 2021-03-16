@@ -1,0 +1,36 @@
+nav {
+  max-width: 980px;
+  min-height: 60px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 100px;
+  height: 50px;
+  background-image: url(/images/logo-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+  align-self: center;
+  font-family: gill-sans-nova, sans-serif;
+}
+nav .links {
+  width: 542px;
+  height: 42;
+  align-self: center;
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  font-family: "Gill Sans MT", sans-serif;
+}
+nav .pipe {
+  background-color: #79ADDC;
+  width: 1px;
+  height: 30px;
+}

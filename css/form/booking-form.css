@@ -1,0 +1,289 @@
+.booking-form {
+  max-width: 1280px;
+  min-height: 900px;
+  margin: 0 auto;
+}
+.booking-form ::placeholder {
+  color: #000;
+  padding-left: 10px;
+}
+.booking-form h1 {
+  color: #000;
+  font-family: proxima-nova, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+}
+.booking-form input {
+  border: #79ADDC 1.5px solid;
+}
+.booking-form .all-forms {
+  width: 900px;
+  margin: 0 auto;
+  align-self: center;
+}
+.booking-form .all-forms .form-group {
+  width: 820px;
+  margin: 0 auto;
+  align-self: center;
+  display: inline-block;
+}
+.booking-form .all-forms .form-group #name {
+  width: 360px;
+  height: 58px;
+  float: left;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+}
+.booking-form .all-forms .form-group #email {
+  width: 480px;
+  height: 58px;
+  float: right;
+  margin-right: -80px;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+}
+.booking-form .all-forms .form-group #country {
+  width: 360px;
+  height: 58px;
+  float: left;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+}
+.booking-form .all-forms .form-group #hotel {
+  width: 480px;
+  height: 58px;
+  float: right;
+  margin-right: -80px;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+}
+.booking-form .all-forms .form-group #check-in {
+  color: #000;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  float: left;
+  padding-top: 15px;
+}
+.booking-form .all-forms .form-group #check-in-date {
+  width: 750px;
+  height: 58px;
+  float: right;
+  margin-right: -80px;
+  color: #000;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  padding-left: 10px;
+}
+.booking-form .all-forms .form-group #check-out {
+  color: #000;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  float: left;
+  padding-top: 15px;
+}
+.booking-form .all-forms .form-group #check-out-date {
+  width: 750px;
+  height: 58px;
+  float: right;
+  margin-right: -80px;
+  color: #000;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  padding-left: 10px;
+}
+.booking-form .all-forms .form-group-people {
+  width: 900px;
+  margin: 0 auto;
+  align-self: center;
+}
+.booking-form .all-forms .form-group-people select {
+  border: #79ADDC 1.5px solid;
+}
+.booking-form .all-forms .form-group-people .adult-div {
+  color: #000;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  padding-right: 155px;
+}
+.booking-form .all-forms .form-group-people #adult {
+  width: 103px;
+  height: 58px;
+}
+.booking-form .all-forms .form-group-people .children-div {
+  color: #000;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  padding-right: 190px;
+}
+.booking-form .all-forms .form-group-people #children {
+  width: 103px;
+  height: 58px;
+}
+.booking-form .all-forms .form-group-people .rooms-div {
+  color: #000;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+}
+.booking-form .all-forms .form-group-people #rooms {
+  width: 103px;
+  height: 58px;
+}
+.booking-form .all-forms .form-group-message {
+  padding-top: 10px;
+}
+.booking-form .all-forms .form-group-message #subject {
+  width: 900px;
+  height: 192px;
+  color: #000;
+  border: #79ADDC 1.5px solid;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+}
+.booking-form .all-forms #submitButton {
+  width: 900px;
+  height: 58px;
+  background-color: #79ADDC;
+  border-radius: 30px;
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  color: #fff;
+  margin: 20px auto 20px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .booking-form {
+    width: 70%;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .booking-form h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .booking-form .all-forms {
+    width: 250px;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .booking-form .all-forms .form-group {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .booking-form .all-forms .form-group #name {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .booking-form .all-forms .form-group #email {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .booking-form .all-forms .form-group #country {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .booking-form .all-forms .form-group #hotel {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .booking-form .all-forms .form-group #check-in-date {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+  }
+  .booking-form .all-forms .form-group #check-out-date {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+  }
+  .booking-form .all-forms .form-group-people {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .booking-form .all-forms .form-group-people #adults {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+  .booking-form .all-forms .form-group-people .adult {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .booking-form .all-forms .form-group-people #child {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+  .booking-form .all-forms .form-group-people .children {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .booking-form .all-forms .form-group-people #room {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+  .booking-form .all-forms .form-group-people .rooms {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .booking-form .all-forms .form-group-message {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .booking-form .all-forms .form-group-message #subject {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+  .booking-form .all-forms #submitButton {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 30px;
+  }
+}
